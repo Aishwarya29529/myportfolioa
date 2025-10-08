@@ -125,7 +125,7 @@ export default function Home() {
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in-up">
               Hi, I&apos;m{" "}
               <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent animate-pulse">
-                Aishwarya
+                Sneha
               </span>
             </h1>
 
@@ -204,6 +204,7 @@ export default function Home() {
                   href="#"
                   className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center text-2xl transition-all duration-300 hover:bg-purple-500 hover:scale-110 hover:-translate-y-2"
                   style={{ animationDelay: `${1 + index * 0.1}s` }}
+                  aria-label={social.name}
                 >
                   {social.icon}
                 </a>
