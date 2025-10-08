@@ -25,7 +25,7 @@ export default function Home() {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <div className="text-2xl font-bold text-white animate-pulse">
-              Portfolio
+              Lavanya&apos;s Portfolio
             </div>
 
             {/* Desktop Menu */}
@@ -125,7 +125,7 @@ export default function Home() {
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in-up">
               Hi, I&apos;m{" "}
               <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent animate-pulse">
-                Sneha
+                Lavanya
               </span>
             </h1>
 
@@ -168,7 +168,11 @@ export default function Home() {
                 </span>
               </button>
 
-              <button className="group px-8 py-4 border-2 border-purple-400 text-purple-400 rounded-full font-semibold transition-all duration-300 hover:bg-purple-400 hover:text-white hover:scale-105">
+              <a
+                href="/Lavanya_CV.pdf"
+                download
+                className="group px-8 py-4 border-2 border-purple-400 text-purple-400 rounded-full font-semibold transition-all duration-300 hover:bg-purple-400 hover:text-white hover:scale-105"
+              >
                 <span className="flex items-center justify-center gap-2">
                   Download CV
                   <svg
@@ -185,7 +189,7 @@ export default function Home() {
                     />
                   </svg>
                 </span>
-              </button>
+              </a>
             </div>
 
             {/* Social Icons */}
@@ -204,7 +208,6 @@ export default function Home() {
                   href="#"
                   className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center text-2xl transition-all duration-300 hover:bg-purple-500 hover:scale-110 hover:-translate-y-2"
                   style={{ animationDelay: `${1 + index * 0.1}s` }}
-                  aria-label={social.name}
                 >
                   {social.icon}
                 </a>
