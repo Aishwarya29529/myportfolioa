@@ -25,7 +25,7 @@ export default function Home() {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <div className="text-2xl font-bold text-white animate-pulse">
-              Chinmai&apos;s Portfolio
+              Portfolio
             </div>
 
             {/* Desktop Menu */}
@@ -116,7 +116,7 @@ export default function Home() {
             <div className="mb-8 relative">
               <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-r from-purple-400 to-pink-400 p-1 animate-spin-slow">
                 <div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center">
-                  <span className="text-6xl">👨‍💻</span>
+                  <span className="text-6xl">👩‍💻</span>
                 </div>
               </div>
             </div>
@@ -125,7 +125,7 @@ export default function Home() {
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in-up">
               Hi, I&apos;m{" "}
               <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent animate-pulse">
-                Chinmai
+                Aishwarya
               </span>
             </h1>
 
@@ -168,11 +168,7 @@ export default function Home() {
                 </span>
               </button>
 
-              <a
-                href="/Chinmai_CV.pdf"
-                download
-                className="group px-8 py-4 border-2 border-purple-400 text-purple-400 rounded-full font-semibold transition-all duration-300 hover:bg-purple-400 hover:text-white hover:scale-105"
-              >
+              <button className="group px-8 py-4 border-2 border-purple-400 text-purple-400 rounded-full font-semibold transition-all duration-300 hover:bg-purple-400 hover:text-white hover:scale-105">
                 <span className="flex items-center justify-center gap-2">
                   Download CV
                   <svg
@@ -189,7 +185,7 @@ export default function Home() {
                     />
                   </svg>
                 </span>
-              </a>
+              </button>
             </div>
 
             {/* Social Icons */}
